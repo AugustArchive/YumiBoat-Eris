@@ -1,7 +1,7 @@
 const YumiBoat = require('./YumiBoat');
 YumiBoat.config = require('./lib/config.json');
 const Yumi = new YumiBoat(YumiBoat.config.api_keys.Discord.login);
-const games = require('./lib/games.json');
+//const games = require('./lib/games.json');
 YumiBoat.Log = console.log;
 
 Yumi.bot.on('ready', () =>
