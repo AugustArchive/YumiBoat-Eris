@@ -1,0 +1,13 @@
+{
+   "prefix": "!y.",
+   "api_keys": {
+      "Discord": {
+         "login": "MzE3MTQ1MTQ4OTAxNTU2MjM0.DNcDBw.L3LCJdoivqx-eZ-YZNLEHypoD2g",
+         "maxShards": "1"
+      },
+      "oliyBots": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjMxNzE0NTE0ODkwMTU1NjIzNCIsImJvdCI6dHJ1ZSwiaWF0IjoxNTA1NjY5ODE0fQ.zqdtjT5Br6XTfNFpytjulplOrj2i3g33G3wBbSbNSJw",
+      "discordBoats": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiIyODAxNTgyODk2Njc1NTUzMjgiLCJyYW5kIjoxNjMsImlhdCI6MTUwMTM4ODQ4NX0.nkQOLW6KnAIglgYKUXYXmB7C5lLfx5urBUZpACMO7T0"
+   },
+   "devs": [ "-- id1 --", "-- id2 --", "-- id3 --" ],
+   "invite": "https://discord.gg/${invite}"
+}
