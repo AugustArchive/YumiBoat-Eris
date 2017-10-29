@@ -22,7 +22,7 @@ class YumiBoat {
              server_count: this.bot.guilds.size  
            })
            .then(this._Logger.info(`[discordbots.org]: Posted Stats! (Guilds: ${this.bot.guilds.size})`)
-           .catch(async (e) => await this._Logger.error(`[discordbots.org]: A error has occured! [${err.message}:${err.code}`))
+           .catch((e) => this._Logger.error(`[discordbots.org]: A error has occured! [${err.message}:${err.code}`))
                  
        this._snek.post(`https://bots.discord.pw/api/bots/${this.bot.user.id}/stats`)
            .set("Authorization", this.config.api_keys.discordBoats)
@@ -30,7 +30,7 @@ class YumiBoat {
              server_count: this.bot.guilds.size  
            })
            .then(this._Logger.info(`[discordbots.org]: Posted Stats! (Guilds: ${this.bot.guilds.size})`)
-           .catch(async (e) => await this._Logger.error(`[discordbots.org]: A error has occured! [${err.message}:${err.code}`))
+           .catch((e) => this._Logger.error(`[discordbots.org]: A error has occured! [${err.message}:${err.code}`))
    }
 
    start() {
